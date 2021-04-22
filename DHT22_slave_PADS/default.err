@@ -1,0 +1,26 @@
+PCB Net List Errors Report - default.sch - Wed Mar 24 15:50:35 2021
+--------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+Part Type DHT22 has a gate with 4 pins in the design and 0 pins in the Library.
+Non matching Part Type DHT22 is used by the following parts:
+ U1.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Power or Ground Symbols used with wrong Net Name
+
++12V
+Sheet 1      X4500  Y5700  - Power  Symbol used for net: +5V
+Sheet 1      X11500 Y7300  - Power  Symbol used for net: +5V
+
++3.3V
+Sheet 1      X6800  Y5500  - Power  Symbol used for net: +5V
+Sheet 1      X7900  Y3700  - Power  Symbol used for net: +5V
+Sheet 1      X9400  Y8200  - Power  Symbol used for net: +5V
+Sheet 1      X11500 Y7700  - Power  Symbol used for net: +5V
